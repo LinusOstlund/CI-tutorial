@@ -2,7 +2,11 @@ public class Algorithms{
 
 	public static void main(String[] args){
 	System.out.println("Hello CI!");	
-	}
+	for (int i = 0; i < 5; i++){
+		printHelloWorld();	
+	}	
+
+}
 
 	public static boolean isPrime(int num) {
 		if (num <= 1) {
@@ -15,4 +19,9 @@ public class Algorithms{
 		}
 		return true;
  }
+
+public static void printHelloWorld(){
+System.out.println("Hello World!");
+}
+
 }
